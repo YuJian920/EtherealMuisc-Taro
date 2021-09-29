@@ -1,0 +1,108 @@
+.discover {
+  width: 100%;
+  height: 100%;
+  // margin-top: 2%;
+
+  .discover__line {
+    display: flex;
+    width: 96%;
+    margin: 0 auto;
+    font-size: 26px;
+    font-weight: bold;
+  }
+
+  .discover__recommend {
+    height: 250px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+
+    &-scroll {
+      white-space: nowrap;
+      height: 100%;
+      width: 100%;
+    }
+
+    &-FM {
+      display: inline-block;
+      margin-left: 2%;
+      margin-right: 2%;
+
+      .FMImages {
+        width: 400px;
+        height: 200px;
+        border-radius: 15px;
+        background-color: #000000
+      }
+
+      .FMTitle {
+        font-size: 24px;
+      }
+    }
+
+    &-anyRecommend {
+      display: inline-block;
+      margin-right: 2%;
+
+      .recommenImages {
+        width: 200px;
+        height: 200px;
+        border-radius: 15px;
+        background-color: #000000
+      }
+
+      .recommendTitle {
+        font-size: 24px;
+      }
+    }
+  }
+
+  .discover__single {
+    height: 330px;
+    margin-top: 2%;
+    margin-bottom: 4%;
+
+    &-swiper {
+      height: 100%;
+    }
+
+    &-list {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      margin-left: 2%;
+      width: 570px;
+
+      .listItem {
+        display: flex;
+        align-items: center;
+        height: 100px;
+
+        .listItem-image {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          width: 100px;
+          height: 100px;
+          background-color: #000000;
+          border-radius: 15px;
+        }
+
+        .listItem-info {
+          display: flex;
+          flex-direction: column;
+          margin-left: 20px;
+
+          .listItem-songName {
+            font-size: 26px;
+            margin-bottom: 5px;
+          }
+
+          .listItem-singer {
+            color: #7f7f7f;
+            font-size: 24px;
+          }
+        }
+      }
+    }
+  }
+}

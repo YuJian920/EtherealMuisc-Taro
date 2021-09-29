@@ -3,11 +3,20 @@
 
 我想做一个东西，可以很简陋可以没人用，但是它得存在，这才是我敲代码的意义。
 
+## 技术栈 
+
+- Taro
+- TaroUI
+- React
+- React Redux
+- Dva
+- TypeScript
+
 ## 本地运行
 
 ```
   # clone到本地
-  git clone https://github.com/Foryou920/EtherealMuisc-Taro
+  git clone https://github.com/YuJian920/EtherealMuisc-Taro
   
   # 进去项目根目录
   cd EtherealMuisc-Taro
